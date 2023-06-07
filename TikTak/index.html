@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/LogoP2.png">
+    <script src="index.js" defer></script>
+    <title>Boter, Kaas en Eiere</title>
+    <style>
+        #Video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+
+    </style>
+</head>
+
+<body>
+    <video autoplay muted loop id="Video">
+        <source src="images/WhatEver.mp4" type="video/mp4">
+    </video>
+    <button id="stopGame" onclick="stopGame()" onclick="/Boter, Kaas en Eieren/.html">Stop game</button>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div class="scorebord" id="scoreBoard">X - O
+            <hr>
+            <div class="xscore" id="xscore">0</div>
+            <div class="circlescore" id="circlescore">0</div>
+            <hr>
+        </div>
+        <div data-winning-message-text></div>
+        <button id="restartButton">Restart</button>
+    </div>
+</body>
+
+</html>

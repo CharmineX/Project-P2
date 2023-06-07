@@ -1,0 +1,148 @@
+body{
+   
+   background-image: linear-gradient(to right, rgb(255, 187, 0), rgb(91, 219, 228) ); 
+  
+}
+.dark-mode {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 7, 100) );
+}
+
+
+/* button play now */
+.button {
+  border: none;
+  border-radius: 25px;
+  color: rgb(65, 65, 214);
+  padding: 40px 60px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: xx-large;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.playNow {background-color: rgb(255, 166, 0);} 
+
+.playNow:hover {
+  background-color: rgb(65, 65, 214);
+  color:  rgb(205, 143, 29);
+
+}
+
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-color: transparent;
+    border: 0px solid ; 
+
+  
+}
+
+/* navigatie bar boven in */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: rgb(255, 173, 21);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(65, 65, 214);
+  text-align: center;
+  font-size: 1cm;
+  padding: 40px 55px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(65, 65, 214);
+  color:rgb(255, 173, 21);
+}
+
+/* canvas */
+
+/* #canvas {
+  position: absolute;
+  left: 65%;
+  top: 61%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  text-align: center;
+} */
+
+
+/* home button settings */
+
+/* .home {
+  background-color: #1c87c9;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+} */
+.home {
+  border: none;
+  border-radius: 25px;
+  color: rgb(255, 166, 0);
+  padding: 40px 60px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: xx-large;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.home {background-color: rgb(65, 65, 214);} 
+
+.home:hover {
+  background-color: rgb(255, 166, 0);
+  color:  rgb(65, 65, 214);
+
+}
+
+
+/* dark mode button */
+.darkmode {
+  border: none;
+  border-radius: 25px;
+  color: rgb(255, 166, 0);
+  padding: 40px 60px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: xx-large;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.darkmode {background-color: rgb(65, 65, 214);} 
+
+.darkmode {
+  background-color: rgb(255, 166, 0);
+  color:  rgb(65, 65, 214);
+
+}

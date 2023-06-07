@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="icon" href="images/LogoP2.png">
+    <style>
+        body {
+            background-color: linear-gradient(to right, rgb(255, 187, 0), rgb(91, 219, 228));
+        }
+
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: blue;
+            color: black;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: antiquewhite;
+        }
+
+        div {
+            border-radius: 5px;
+            background-color: orange;
+            padding: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #ffffff;
+            font-size: 16px;
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <form>
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="naam" placeholder="Naam..">
+
+            <label for="Geslacht">Gender</label>
+            <select id="Geslacht" name="Geslacht">
+                <option value="Man">Men</option>
+                <option value="Vrouw">Woman</option>
+                <option value="X">X</option>
+
+
+            </select>
+
+            <p>Type here you're feedback so, we can improve are game</p>
+            <textarea></textarea>
+
+            <input type="submit" value="Verzenden">
+        </form>
+
+
+    </div>
+
+</body></html>
